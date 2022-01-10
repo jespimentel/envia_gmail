@@ -25,8 +25,7 @@ lista_destinatarios = input ('Entre com a lista de destinatários (separados som
 lista_destinatarios = lista_destinatarios.split(' ')
 
 # Inclusão dos conselheiros e assessores na lista
-conselheiros = ['xxx@uol.com.br', 'xxx@mpsp.mp.br', 'xxx@uol.com.br', 
-'xxx@uol.com.br', 'xxx@gmail.com', 'xxx@gmail.com']
+conselheiros = ['xxx@uol.com.br', 'xxx@mpsp.mp.br', 'xxx@uol.com.br', 'xxx@uol.com.br', 'xxx@gmail.com', 'xxx@gmail.com']
 auxiliares = ['xxx@gmail.com', 'xxx@uol.com.br']
 lista_destinatarios = list(set(lista_destinatarios + auxiliares)) # Exclui valores repetidos
 
