@@ -25,9 +25,9 @@ lista_destinatarios = input ('Entre com a lista de destinatários (separados som
 lista_destinatarios = lista_destinatarios.split(' ')
 
 # Inclusão dos conselheiros e assessores na lista
-conselheiros = ['acdaponte@uol.com.br', 'bonilha@mpsp.mp.br', 'lima.marco@uol.com.br', 
-'andrade.nelson@uol.com.br', 'juliotti@gmail.com', 'saadmaz@gmail.com']
-auxiliares = ['pimentel.jes@gmail.com', 'jespimentel@uol.com.br']
+conselheiros = ['xxx@uol.com.br', 'xxx@mpsp.mp.br', 'xxx@uol.com.br', 
+'xxx@uol.com.br', 'xxx@gmail.com', 'xxx@gmail.com']
+auxiliares = ['xxx@gmail.com', 'xxx@uol.com.br']
 lista_destinatarios = list(set(lista_destinatarios + auxiliares)) # Exclui valores repetidos
 
 # Corpo de mensagem
@@ -42,12 +42,12 @@ Entre por este link: {link}
 Ficaremos honrados com a sua presença!
 Até lá e um forte e fraternal abraço.
 
-Antonio Carlos da Ponte
-José Carlos Mascari Bonilha
-Marco Antonio Ferreira Lima
-Nelson Luis Sampaio de Andrade
-Pedro de Jesus Juliotti
-Saad Mazloum
+A. C. P. 
+J. C. M. B. 
+M. A. F. L. 
+N. L. S. A. 
+P. J. J. 
+S. M.
 
 Conheça o nosso site: https://www.legitimidademp.com
 
